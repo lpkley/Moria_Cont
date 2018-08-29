@@ -34,3 +34,17 @@ $(document).ready(function() {
     });
   
 });
+
+let div = document.getElementById('escso');
+let texto = 'A Contabilidade que sua Empresa Precisa !';
+
+function escrever(str, el) {
+  let char = str.split('').reverse();
+  let typer = setInterval(function() {
+    if (!char.length) return clearInterval(typer);
+    let next = char.pop();
+    el.innerHTML += next;
+  }, 100);
+}
+
+escrever(texto, div);
