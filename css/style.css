@@ -28,7 +28,7 @@ body{
 #escso{
     font-family: 'Comfortaa', cursive;
     font-size: 28px;
-    margin-top: -230px;
+    margin-top: -260px;
     text-align: center;
     color: #fff;
 }
@@ -39,6 +39,21 @@ body{
     text-align: center;
     color: #fff;
     margin-bottom: -16px;
+
+}
+
+div > button{
+    background-color:  #5A29FF;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 0;
+    -moz-border-radius:5px;
+   -webkit-border-radius:5px;
+   
 
 }
 
